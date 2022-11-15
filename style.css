@@ -1,0 +1,36 @@
+header {
+    background-color: rgb(155, 126, 126);
+}
+
+nav ul{
+   box-sizing: border-box;
+   padding: 0px;
+   list-style-type: none;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white
+}
+
+nav ul li a:hover{
+    cursor: pointer;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+footer{
+    flex-shrink: 0;
+    padding: 8px;
+    background-color:  rgb(92, 101, 114);
+    text-align:center;
+    bottom: 0px;
+    width: 100%;
+
+}
+
+
